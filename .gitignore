@@ -1,0 +1,17 @@
+# binwalk / unsquashfs output
+*.extracted/
+_*.extracted/
+squashfs-root/
+
+# firmware images (large, third-party)
+samples/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# secrets
+.env
+*.key
+findings/
